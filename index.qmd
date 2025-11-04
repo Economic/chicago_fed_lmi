@@ -40,6 +40,8 @@ ggplot(combined_data, aes(x = date, y = unemployment_rate, color = source)) +
 
 ### Data Table
 
+Download the data: [data.csv](data.csv)
+
 ```{r table, echo=FALSE}
 combined_data_wide %>%
   mutate(Date = format(Date, "%Y-%m-%d")) %>%
@@ -48,8 +50,6 @@ combined_data_wide %>%
     align = c("l", "r", "r")
   )
 ```
-
-Download the data: [data.csv](data.csv)
 
 :::
 
