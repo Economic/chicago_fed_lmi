@@ -1,0 +1,56 @@
+---
+title: "Chicago Fed FCR vs BLS Unemployment Rate"
+format:
+  html:
+    embed-resources: true
+    theme: default
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(targets)
+library(knitr)
+
+# Load targets
+tar_load(combined_data)
+tar_load(combined_data_wide)
+```
+
+## Results
+
+::: {.panel-tabset}
+
+### Plot
+
+```{r plot, echo=FALSE, fig.width=10, fig.height=6}
+ggplot(combined_data, aes(x = date, y = unemployment_rate, color = source)) +
+  geom_line(linewidth = 1) +
+  labs(
+    title = "Chicago Fed Flow-Consistent Unemployment Rate vs BLS Unemployment Rate",
+    x = "Date",
+    y = "Unemployment Rate (%)",
+    color = "Source"
+  ) +
+  theme_minimal() +
+  theme(
+    legend.position = "bottom",
+    plot.title = element_text(size = 14, face = "bold")
+  )
+```
+
+### Data Table
+
+```{r table, echo=FALSE}
+combined_data_wide %>%
+  mutate(Date = format(Date, "%Y-%m-%d")) %>%
+  kable(
+    col.names = c("Date", "BLS Unemployment Rate (%)", "Chicago Fed FCR (%)"),
+    align = c("l", "r", "r")
+  )
+```
+
+Download the data: [data.csv](data.csv)
+
+:::
+
+Last updated: `r format(Sys.time(), "%B %d, %Y")`
