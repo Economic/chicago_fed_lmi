@@ -79,6 +79,7 @@ tar_assign({
         names_from = source,
         values_from = unemployment_rate
       ) %>%
+      arrange(desc(date)) |>
       rename(
         Date = date,
         `BLS unemployment rate` = BLS,

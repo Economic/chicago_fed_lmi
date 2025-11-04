@@ -6,9 +6,9 @@ metadata|stem|17e88c795f6c67be|55cd2d83bd0470ca|c6f126ffdf5e2de9|1529494452||t20
 bls_data|stem|3caca6c0bc7f0a97|33609073dfa9db95|5c719b7fedf58e22|249177666||t20396.8462572884s|s1069b|1069|rds|local|vector|||0.007||
 fcr_data|stem|7035c2c7b8ff9250|dd7a5f9efca2ebea|78df888c75e76772|242464768||t20396.8462576157s|s2394b|2394|rds|local|vector|||0.018||
 combined_data|stem|5f7173bf55ab4962|7d3d02883be31c92|19e7fc5789064285|-773924101||t20396.8462579159s|s2846b|2846|rds|local|vector|||0.003||
-combined_data_wide|stem|2370c01cfadccec5|d0d1f81125f13be2|2882e6e333871c49|-231413721||t20396.8462581535s|s2733b|2733|rds|local|vector|||0.007||
-combined_data_csv|stem|c026ea943567976e|2b7ff7687c016d30|6b37a78186b02f69|1759213979|docs/data.csv|t20396.8463037487s|s6740b|6740|file|local|vector|||0.073||
-current_timestamp|object|a8f2b4b1bcd44460
-bls_data_raw|stem|55ef12049e02e888|5448120fd41fe08c|4d98069c528d4200|267529502||t20396.8498945196s|s1310b|1310|rds|local|vector|||0.838||
-fcr_file|stem|2c846beeb19c3465|02b69f3d5368e1fa|4d98069c528d4200|-950428980|data/chi-labor-market-indicators.xlsx|t20396.8498979412s|s27854b|27854|file|local|vector|||0.272||
-site|stem|121ae14c5ba1fe31|619a4e6483f67b72|c084dd394a396654|-1157844207|docs/index.html*index.qmd|t20396.84994298s|s1341391b|1341391|file|local|vector|||3.875||
+current_timestamp|object|f0475aefb2e8e56f
+bls_data_raw|stem|55ef12049e02e888|5448120fd41fe08c|d3b70bdcd592fbf4|267529502||t20396.8510278384s|s1310b|1310|rds|local|vector|||0.889||
+fcr_file|stem|2c846beeb19c3465|02b69f3d5368e1fa|d3b70bdcd592fbf4|-950428980|data/chi-labor-market-indicators.xlsx|t20396.8510363082s|s27854b|27854|file|local|vector|||0.71||
+combined_data_wide|stem|4103edccf920fb56|48d694d3fe84f14b|2882e6e333871c49|-231413721||t20396.8510373961s|s2733b|2733|rds|local|vector|||0.01||
+site|stem|f6e8cadbc67a2a32|619a4e6483f67b72|11f98bef03537026|-1157844207|docs/index.html*index.qmd|t20396.85108272s|s1341391b|1341391|file|local|vector|||3.936||
+combined_data_csv|stem|cd4afe005a79016b|2b7ff7687c016d30|078d2dba8a1ef33f|1759213979|docs/data.csv|t20396.8510842243s|s6740b|6740|file|local|vector|||0.074||
