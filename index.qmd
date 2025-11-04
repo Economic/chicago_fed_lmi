@@ -33,6 +33,10 @@ ggplot(combined_data, aes(x = date, y = unemployment_rate, color = source)) +
   theme(
     legend.position = "bottom",
     plot.title = element_text(size = 14, face = "bold")
+  ) + 
+  labs(
+    title = "Chicago Fed's flow-consistent unemployment rate tracks the official rate",
+    subtitle = "Monthly unemployment rates",
   )
 ```
 
@@ -50,5 +54,7 @@ combined_data_wide %>%
 ```
 
 :::
+
+Source: [Chicago Federal Reserve](https://www.chicagofed.org/research/data/chicago-fed-labor-market-indicators/latest-release) and [Bureau of Labor Statistics](https://www.bls.gov/cps/)
 
 Last updated: `r format(Sys.time(), "%B %d, %Y")`
