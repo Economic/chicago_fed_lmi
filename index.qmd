@@ -16,8 +16,6 @@ tar_load(combined_data)
 tar_load(combined_data_wide)
 ```
 
-## Results
-
 ::: {.panel-tabset}
 
 ### Plot
